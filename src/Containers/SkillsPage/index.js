@@ -1,10 +1,11 @@
 import React from 'react'
+import PageContainer from '../PageContainer';
 
 const SkillsPage = () => {
     return (
-        <div>
+        <PageContainer>
             Skills Page
-        </div>
+        </PageContainer>
     )
 }
 

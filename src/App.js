@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import AboutPage from './Containers/AboutPage';
-import ProjectsPage from './Containers/ProjectsPage';
-import SkillsPage from './Containers/SkillsPage';
 import ContactPage from './Containers/ContactPage';
 import NotFoundPage from './Containers/NotFoundPage';
+import ProjectsPage from './Containers/ProjectsPage';
+import SkillsPage from './Containers/SkillsPage';
 
 class App extends Component {
   render() {
-    return (
+    return ( 
       <Switch>
         <Route exact path="/" component={AboutPage} />
         <Route exact path="/projects" component={ProjectsPage} />
