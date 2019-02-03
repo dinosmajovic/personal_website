@@ -3,7 +3,6 @@ import styles from './sidebar.module.scss';
 import { NavLink } from 'react-router-dom';
 import SearchIcon from 'react-ionicons/lib/IosSearch';
 
-
 const Sidebar = () => {
   return (
     <div className={styles.sidebar}>
